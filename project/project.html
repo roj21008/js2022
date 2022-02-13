@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project JS</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    
+    <h1>IMC CALC</h1>
+    
+    <div class="date-now">
+        <p>Hi, Today is : <date></date></p>
+    </div>
+    <h3>Let's know about you</h3>
+    <div>      
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name">
+    </div>
+    <div>      
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname" name="lastname">
+    </div>
+    <div>      
+        <label for="weight">Weight (Kg):</label>
+        <input type="text" id="weight" name="weight">
+    </div>
+    <div>      
+        <label for="tall">Tall (m) :</label>
+        <input type="text" id="tall" name="tall" autocomplete="off">
+    </div>
+    
+<br>
+    <button id="calc">Calc</button>
+    
+    <p>His BMI is <strong><span id="imc"></span></strong>, which indicates that his weight is in  
+        <span id="message"></span>category for adults of the same height.</p>
+    
+
+    <h2>HISTORIAL</h2>
+    <div class="listcontainer">
+        <ul id="list">
+
+        </ul>
+    </div>
+    <hr>
+<!--POKEDEX-->
+<h1 class="title">POKEDEX</h1>
+<label for="choose">Choose a number between(1 - 898):</label>
+<input type="text" id="choose" name="choose">
+<button id="show">Show</button>
+<button id="clean">Clean</button>    
+
+    <div class="pokemon-container">
+
+    </div>
+       
+    
+    <script src="project.js"></script>
+    <script src="pokemon.js"></script>
+</body>
+</html>
