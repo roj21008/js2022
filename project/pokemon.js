@@ -12,7 +12,7 @@ function fetchPokemon() {
         spinner.style.display = "none";
       });
   } 
-
+ 
 function createPokemon(pokemon){
     const card = document.createElement('div');
     card.classList.add('pokemon-block');
